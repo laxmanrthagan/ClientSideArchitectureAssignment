@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path:'',pathMatch: 'full', component: GameDashboardComponent },
+  { path:'',redirectTo:'game-dashboard', pathMatch: 'full' },
   { path:'home',pathMatch: 'full', component: AppComponent },
   { path:'game-dashboard',pathMatch: 'full', component: GameDashboardComponent },
   { path:'pi-game',pathMatch: 'full', component: PiGameComponent },

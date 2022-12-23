@@ -18,10 +18,10 @@ export class AppComponent implements OnInit {
   }
 
   checkCurrentRoute() {
-    if(this.router.url.indexOf('game-dashboard') !== -1) {
-      return false;
-    } else {
-      return true;
-    }
+    return !(this.router.url.indexOf('game-dashboard') !== -1 || this.router.url.indexOf('home') !== -1);
+  }
+
+  checkHomeRoute() {
+    return this.router.url.indexOf('home') !== -1;
   }
 }

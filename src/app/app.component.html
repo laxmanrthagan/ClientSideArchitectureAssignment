@@ -1,3 +1,4 @@
 
-<button routerLink="/game-dashboard" class="btn" *ngIf="checkCurrentRoute()">Back to Dashboard</button>
+<button routerLink="/home" class="btn" *ngIf="!checkHomeRoute()">Go to Home</button>
+<button routerLink="/game-dashboard" class="btn" *ngIf="checkCurrentRoute()">Go to Dashboard</button>
 <router-outlet></router-outlet>

@@ -1,18 +1,27 @@
 @import './../../../styles.scss';
 
 .game-dashboard {
-    background-color: lightblue;
+    background-color: blueviolet;
     width: 100vh;
     height: 90vh;
     display: flex;
+    
 
     .button-div {
         display: flex;
         margin: auto;
 
         .btn {
-            background: lightgreen;
-            width:250px;
+            width: 260px;
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
         }
     }
 }
