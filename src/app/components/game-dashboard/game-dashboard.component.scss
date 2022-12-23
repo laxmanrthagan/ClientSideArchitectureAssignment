@@ -1,0 +1,18 @@
+@import './../../../styles.scss';
+
+.game-dashboard {
+    background-color: lightblue;
+    width: 100vh;
+    height: 90vh;
+    display: flex;
+
+    .button-div {
+        display: flex;
+        margin: auto;
+
+        .btn {
+            background: lightgreen;
+            width:250px;
+        }
+    }
+}
