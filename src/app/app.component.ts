@@ -7,8 +7,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
-
   constructor(private router: Router) {
 
   }
@@ -19,9 +17,5 @@ export class AppComponent implements OnInit {
 
   checkCurrentRoute() {
     return !(this.router.url.indexOf('game-dashboard') !== -1 || this.router.url.indexOf('home') !== -1);
-  }
-
-  checkHomeRoute() {
-    return this.router.url.indexOf('home') !== -1;
   }
 }

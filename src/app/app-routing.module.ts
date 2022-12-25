@@ -10,7 +10,8 @@ const routes: Routes = [
   { path:'home',pathMatch: 'full', component: AppComponent },
   { path:'game-dashboard',pathMatch: 'full', component: GameDashboardComponent },
   { path:'pi-game',pathMatch: 'full', component: PiGameComponent },
-  { path:'snake-ladder',pathMatch: 'full', component: SnakeLadderComponent }
+  { path:'snake-ladder',pathMatch: 'full', component: SnakeLadderComponent },
+  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) }
 ];
 
 @NgModule({

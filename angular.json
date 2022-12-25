@@ -12,14 +12,15 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/game-dashboard.png"
             ],
             "styles": [
               "src/styles.scss"
@@ -78,7 +79,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/game-dashboard.png"
             ],
             "styles": [
               "src/styles.scss"
@@ -103,5 +105,6 @@
   },
   "cli": {
     "analytics": "76749434-02f4-4f73-9e59-89a4ba2344ae"
-  }
+  },
+  "defaultProject": "nagp-angular-assignment"
 }

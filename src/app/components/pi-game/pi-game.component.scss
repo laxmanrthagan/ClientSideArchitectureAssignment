@@ -1,5 +1,6 @@
 @import './../../../styles.scss';
 
+
 * {
 	box-sizing: border-box;
 }
@@ -22,14 +23,16 @@ body {
 	border-radius: 4px;
 	align-items: flex-end;
 	line-height: 1.5;
+
+	&__keys {
+		display: grid;
+		grid-template: 30px 30px/30px 30px 30px;
+		gap: 4px;
+		margin-right: 25px;
+	}
 }
 
-.keys {
-	display: grid;
-	grid-template: 30px 30px/30px 30px 30px;
-	gap: 4px;
-	margin-right: 25px;
-}
+
 
 kbd {
 	border: 2px solid #9BA2FF;
@@ -61,12 +64,14 @@ kbd {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	canvas {
+		width: 400px;
+		height: 400px;
+	}
 }
 
-canvas {
-	width: 400px;
-	height: 400px;
-}
+
 
 h1,
 h2,
@@ -119,7 +124,7 @@ dialog {
 	color: #280E44;
 	box-shadow: 3px 3px 0 0 #EF476F, 6px 6px 0 0 #9BA2FF, 9px 9px 0 0 #470FF4;
 
-	.inner {
+	&__inner {
 		position: relative;
 		display: flex;
 		flex-direction: column;

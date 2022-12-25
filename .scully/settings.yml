@@ -1,0 +1,11 @@
+identifier: l2c01c0bm0ub1695
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: nagp-angular-assignment
+homeFolder: D:\AngularAssignment\ClientSideArchitectureAssignment
+distFolder: dist/
+outDir: D:\AngularAssignment\ClientSideArchitectureAssignment\dist\static
+handle404: ''
+allowErrorCollect: true
