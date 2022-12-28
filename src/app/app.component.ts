@@ -16,6 +16,6 @@ export class AppComponent implements OnInit {
   }
 
   checkCurrentRoute() {
-    return !(this.router.url.indexOf('game-dashboard') !== -1 || this.router.url.indexOf('home') !== -1);
+    return !(this.router.url.indexOf('game-dashboard') !== -1 || this.router.url.indexOf('home') !== -1 || this.router.url.indexOf('ssg') !== -1);
   }
 }
