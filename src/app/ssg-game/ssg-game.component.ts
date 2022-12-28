@@ -4,14 +4,14 @@ import {ActivatedRoute, Router, ROUTES} from '@angular/router';
 declare var ng: any;
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css'],
+  selector: 'app-ssg-game',
+  templateUrl: './ssg-game.component.html',
+  styleUrls: ['./ssg-game.component.scss'],
   preserveWhitespaces: true,
   encapsulation: ViewEncapsulation.Emulated
 
 })
-export class BlogComponent implements OnInit {
+export class SsgGameComponent implements OnInit {
   ngOnInit() {}
 
   constructor(private router: Router, private route: ActivatedRoute) {

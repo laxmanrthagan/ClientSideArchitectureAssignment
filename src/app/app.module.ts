@@ -9,7 +9,6 @@ import { ItemDirective } from './item.directive';
 import { AppRoutingModule } from './app-routing.module';
 import { PiGameComponent } from './components/pi-game/pi-game.component';
 import { SnakeLadderComponent } from './components/snake-ladder/snake-ladder.component';
-import { GameDashboardComponent } from './components/game-dashboard/game-dashboard.component';
 
 
 // @NgModule decorator with its metadata
@@ -19,7 +18,6 @@ import { GameDashboardComponent } from './components/game-dashboard/game-dashboa
     ItemDirective,
     PiGameComponent,
     SnakeLadderComponent,
-    GameDashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@ const routes: Routes = [
   { path:'game-dashboard',pathMatch: 'full', component: GameDashboardComponent },
   { path:'pi-game',pathMatch: 'full', component: PiGameComponent },
   { path:'snake-ladder',pathMatch: 'full', component: SnakeLadderComponent },
-  { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) }
+  { path: 'ssg', loadChildren: () => import('./ssg-game/ssg-game.module').then(m => m.SsgGameModule) }
 ];
 
 @NgModule({
